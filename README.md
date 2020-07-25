@@ -28,6 +28,8 @@ Or instead of Python you may use Anaconda
 
 - [Hadoop](https://www.youtube.com/watch?v=Y6oit3rCsZo&t=1668s)
 
+- [Kafka](https://github.com/ATR-Lab/getting-started-kafka#installation)
+
 
 ## Tutorials
 
