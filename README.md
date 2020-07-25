@@ -48,8 +48,30 @@ Or instead of Python you may use Anaconda
 - [Kafka](https://github.com/ATR-Lab/getting-started-kafka#installation)
 
 
-## Tutorials
+## How to use
+
+```
+# Automate shell script is responsible for getting up Kafka cluster up, 
+# running Kafka Producer and Consumer, and
+# Connecting PySpark to MongoDB
+
+$ bash automate.sh
 
 
+# Change script is responsible for publishing the data to HDFS through URI
+$ bash change.sh
+
+```
 ## References
+
+
+
+
+
+
+
+
+
+
+
 
