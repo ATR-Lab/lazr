@@ -10,6 +10,23 @@ A data lake architecture for telepresence robots
 
 ## Architecture
 
+Telepresence robotic avatars one such as from [Avatar](https://g.co/kgs/KfuJ42), where a operator can control remotely located robot through a jacket. There are two different kinds of data generated here:
+
+- Sensory Data and:
+  
+  Since the nature of these sensors generate time dependent data. The information generated from jacket consists of sensors such as following:
+
+  * Feedback
+  * Galvanic Skin Receptors
+  * Haptic Sensors and 
+  * Motion Sensors
+
+
+- Video information:
+
+  The video and audio feedback from robot while the operating the robot.
+
+Considerations and understanding on what basis we've choosen this architecture, you may check out [this link](https://docs.google.com/document/d/1Q2nAtQ_UcUGdLwagbxyHWk7RiwRFSflorGsx32z_9mc/edit?usp=sharing).
 
 
 ## Installations
