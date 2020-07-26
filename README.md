@@ -5,7 +5,7 @@ A data lake architecture for telepresence robots
 
 - [Architecture](#architecture)
 - [Installations](#installations)
-- [Tutorials](#tutorials)
+- [How to use](#how-to-use)
 - [References](#references)
 
 ## Architecture
@@ -37,7 +37,7 @@ Following are technical stack we've used:
 
 - [MongoDB](https://docs.google.com/document/d/1R6Zv9BGfJY_acG323mk71RC7DlkifUg9R2NWBgvk8e8/edit?usp=sharing)
 
-- [PySpark](https://towardsdatascience.com/installing-pyspark-with-java-8-on-ubuntu-18-04-6a9dea915b5b)
+- [PySpark](https://docs.google.com/document/d/1MJl3Hi3cOmC5VgVG0qfSsF11LPbk68vii-gOKOMeYxg/edit?usp=sharing)
 
 - [Hadoop](https://docs.google.com/document/d/1lyAd5bzZWu_nRXTS0wU0KZG-USIep5SkxOaBhLVtX5s/edit?usp=sharing)
 
