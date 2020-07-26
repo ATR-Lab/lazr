@@ -37,7 +37,7 @@ Following are the list of technical stack required:
 
 Or instead of Python you may use Anaconda 
 
-- [Anaconda](https://docs.anaconda.com/anaconda/install/)
+- [Anaconda](https://docs.google.com/document/d/1j_7M_d7pD1tuuEVWgVmpW8lwZ1VxH1-cF8JhZJWO3Ac/edit?usp=sharing)
 
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 
