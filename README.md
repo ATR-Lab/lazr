@@ -1,7 +1,7 @@
 # lazr
-A data lake architecture for telepresence robots
+> A data lake architecture for telepresence robots
 
-# Table Contents
+## Table of contents
 
 - [Architecture](#architecture)
 - [Installations](#installations)
