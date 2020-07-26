@@ -29,7 +29,7 @@ Telepresence robotic avatars one such as from [Avatar](https://g.co/kgs/KfuJ42),
 Considerations and understanding on what basis we've choosen this architecture, you may check out [this link](https://docs.google.com/document/d/1Q2nAtQ_UcUGdLwagbxyHWk7RiwRFSflorGsx32z_9mc/edit?usp=sharing).
 
 
-## Installations & Technical Stack
+## Installations
 
 Following are the list of technical stack required:
 
