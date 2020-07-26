@@ -33,10 +33,6 @@ Considerations and understanding on what basis we've choosen this architecture, 
 
 Following are the list of technical stack required:
 
-- [Python3.6](https://realpython.com/installing-python/)
-
-Or instead of Python you may use Anaconda 
-
 - [Anaconda](https://docs.google.com/document/d/1j_7M_d7pD1tuuEVWgVmpW8lwZ1VxH1-cF8JhZJWO3Ac/edit?usp=sharing)
 
 - [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
