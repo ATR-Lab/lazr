@@ -43,7 +43,7 @@ Or instead of Python you may use Anaconda
 
 - [PySpark](https://towardsdatascience.com/installing-pyspark-with-java-8-on-ubuntu-18-04-6a9dea915b5b)
 
-- [Hadoop](https://www.youtube.com/watch?v=Y6oit3rCsZo&t=1668s)
+- [Hadoop](https://docs.google.com/document/d/1lyAd5bzZWu_nRXTS0wU0KZG-USIep5SkxOaBhLVtX5s/edit?usp=sharing)
 
 - [Kafka](https://github.com/ATR-Lab/getting-started-kafka#installation)
 
