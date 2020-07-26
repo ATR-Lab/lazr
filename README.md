@@ -31,11 +31,11 @@ Considerations and understanding on what basis we've choosen this architecture, 
 
 ## Installations
 
-Following are the list of technical stack required:
+Following are technical stack we've used:
 
 - [Anaconda](https://docs.google.com/document/d/1j_7M_d7pD1tuuEVWgVmpW8lwZ1VxH1-cF8JhZJWO3Ac/edit?usp=sharing)
 
-- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
+- [MongoDB](https://docs.google.com/document/d/1R6Zv9BGfJY_acG323mk71RC7DlkifUg9R2NWBgvk8e8/edit?usp=sharing)
 
 - [PySpark](https://towardsdatascience.com/installing-pyspark-with-java-8-on-ubuntu-18-04-6a9dea915b5b)
 
