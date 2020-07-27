@@ -50,7 +50,6 @@ Following are technical stack we've used:
 # Automate shell script is responsible for getting up Kafka cluster up, 
 # running Kafka Producer and Consumer, and
 # Connecting PySpark to MongoDB
-
 $ bash automate.sh
 
 
