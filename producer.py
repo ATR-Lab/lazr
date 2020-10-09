@@ -21,24 +21,6 @@ producer = KafkaProducer(bootstrap_servers=['localhost:9092'],
                          value_serializer=lambda x: 
                          json.dumps(x).encode('ascii'))
 
-#
-#consumer = KafkaConsumer(
-#    'first_topic',
-#     bootstrap_servers=['localhost:9092'],
-#     auto_offset_reset='latest',
-#     enable_auto_commit=True,
-#     value_deserializer=None) #lambda x: json.loads(x.decode('ascii'))
-#
-#
-#
-#consumer.subscribe(['first_topic'])
-
-#for message in consumer:
-#    #message = message.value
-#    print("Message value:",message.value)
-
-
-
 class Producer:
     
     def __init__(self, file):
@@ -67,7 +49,6 @@ class Producer:
         #using time intervals to produce the data and send it over Kafka
         while(i < len(self.data_intermediate)):
         
-        #for(i in range(0, len(self.data_intermediate), 2)):
             # below line works - DONOT MAKE CHANGES - line processing
             self.data_intermediate['file_name'] = "Directory/us/" + str(self.data_intermediate['started_at'][i])[:10]
 
@@ -118,21 +99,13 @@ producer_obj1 = Producer("/home/skywalker/Kafka/kafka_2.11-2.3.0/data/astro.json
 
 producer_obj1.data_producing()
 
-#df_dict = producer_obj1.data_testing()
+data = Producer.data_intermediate 
 
+
+#--------------Following is used for testing-----------------------#
+"""
+#df_dict = producer_obj1.data_testing()
 
 #producer_obj1.data_details()
 
-
-
-
-data = Producer.data_intermediate
-
-
-
-
-#
-#post = {"author": "Mike",
-#         "text": "My first blog post!",
-#         "tags": ["mongodb", "python", "pymongo"],
-#         "date": datetime.datetime.utcnow()}
+"""
