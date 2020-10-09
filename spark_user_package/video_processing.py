@@ -134,15 +134,6 @@ class Video_data:
     
     def show_video(self):
         
-#        temp_path = "/home/skywalker/Desktop/NASA/"
-#        video_binary_string = data
-#        decoded_string = (video_binary_string)
-#        
-#        with open(temp_path+'/video1234.mp4', 'wb') as wfile:
-#           wfile.write(decoded_string)
-#        cap = cv2.VideoCapture(temp_path+'/video.mp4')
-#        success, frame = cap.read()
-        
         if self.endpoint == None:
             
             self.endpoint, filename_queried = self.get_files()
@@ -156,9 +147,7 @@ class Video_data:
         print("working")
         
         cap = cv2.VideoCapture(self.endpoint)
-        
-        #temp_path+ "video.mp4"
-        
+                
         while(cap.isOpened()):
             ret, frame = cap.read()
             if ret == True:
@@ -186,7 +175,6 @@ class Video_data:
         if success:
             cv2.imwrite("frame20sec.jpg", image)     # save frame as JPEG file
             cv2.imshow(str(total_seconds_retrieval_time),image) #str(total_seconds_retrieval_time)
-#            cv2.waitKey()
             cv2.waitKey(25000)
             cv2.destroyAllWindows()
             
@@ -245,139 +233,4 @@ ab.endpoint_value()
 #ab.file_checksum()
 
 ab.operation()
-
-
-
-
-
-
-#
-#
-#
-#
-#
-#
-#import cv2
-#
-#vidcap = cv2.VideoCapture("/home/skywalker/Desktop/flask-movie-bag/2020-07-21_170850.mp4")
-#vidcap.set(cv2.CAP_PROP_POS_MSEC, 98000)      # just cue to 20 sec. position
-#success,image = vidcap.read()
-#print(success)
-#if success:
-#    cv2.imwrite("frame20sec.jpg", image)     # save frame as JPEG file
-#    cv2.imshow(str(200000),image) #str(total_seconds_retrieval_time)
-##           cv2.waitKey()
-#    cv2.waitKey(10000)
-#    cv2.destroyAllWindows()
-#            
-#
-#
-#
-#
-#
-#80000/1000
-#
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
-#
-#response = requests.put("http://skywalker-G7-7588:50070/webhdfs/v1/test/2/trial2.mp4?op=CREATE", allow_redirects = True)
-#
-#
-#
-#response.status_code
-#
-#response.headers['Location'] =  "http://skywalker-G7-7588:50075/webhdfs/v1/test/1/trial.mp4?op=GETFILECHECKSUM&namenoderpcaddress=localhost:9000"
-#
-#
-#
-#requests.get("http://skywalker-G7-7588:50070/webhdfs/v1/user/hduser/2020-07-17_112245.mp4?op=OPEN")
-#
-#
-#sending = requests.put(a.url, file = open("/home/skywalker/Desktop/flask-movie-bag/2020-06-20_145450.mp4", "rb"))
-#
-#sending = requests.Request("PUT", url = response.url, files = open("/home/skywalker/Desktop/flask-movie-bag/2020-06-20_145450.mp4", "rb"))
-#
-#sending.url
-#
-#sending.__dict__
-#
-#
-#response2 = requests.get("http://skywalker-G7-7588:50070/webhdfs/v1/test/1/trial.mp4?op=OPEN")
-#
-#
-
-
-
-
-
-
-
-
-
-
-#---------------------------------Back up--------------------------------------
-#
-#endpoint = "http://skywalker-G7-7588:50070/webhdfs/v1/user/hduser/video_.mp4?op=LISTSTATUS"
-#endpoint_open = "http://skywalker-G7-7588:50070/webhdfs/v1/user/hduser/video_.mp4?op=OPEN"
-#
-#
-#endpoint_open = "http://skywalker-G7-7588:50070/webhdfs/v1/user/hduser/2020-06-20_145920.mp4?op=OPEN"
-##/user/hduser/2020-06-20_145450.265856.mp4
-##/user/hduser/2020-06-20_145920.mp4
-##/user/hduser/2020-07-17_112245.mp4
-#
-#a = requests.get(endpoint_open)
-#
-#a.url
-
-
-#time_to_retrieve_seconds = input("enter").split(',')
-#total_seconds_retrieval_time = int(time_to_retrieve_seconds[0])*60 + int(time_to_retrieve_seconds[1])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
