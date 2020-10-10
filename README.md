@@ -59,7 +59,7 @@ $ bash change.sh
 ```
 ## References
 
-Most of our research information can be found at [this link](https://drive.google.com/drive/folders/1a5XjoFfzhZc9G6i56oRI0OSRx6_oP6CX?usp=sharing)
+Most of our research work, and paper to the conference can be found at [this link](https://drive.google.com/drive/folders/1a5XjoFfzhZc9G6i56oRI0OSRx6_oP6CX?usp=sharing)
 
 
 
